@@ -16,7 +16,7 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
-        stage('Test') {
+        stage('maven test') {
             steps {
                 echo 'mv test'
             }
