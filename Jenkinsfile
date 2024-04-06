@@ -1,4 +1,4 @@
-pipeline {
+hopipeline {
     agent any
     
     tools {
@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mv test'
+                echo 'mv test'
             }
         }
     }
