@@ -16,7 +16,7 @@ hopipeline {
                 sh 'mvn clean compile'
             }
         }
-        stage('Maven test') {
+        stage('maven test') {
             steps {
                 echo 'mv test'
             }
