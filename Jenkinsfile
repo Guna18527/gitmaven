@@ -26,8 +26,6 @@ pipeline {
     post {
         always {
             echo 'post build action'
-            build job: 'python'
-            build job: 'maven project'
         }
     }
 }
